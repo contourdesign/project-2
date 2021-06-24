@@ -1,4 +1,4 @@
-// JS 
+// JSC chart hover-timeline of top 10 most frequent earthquake days
 var chart; 
 var palette = ['#FF5722']; 
 JSC.fetch( 
@@ -66,7 +66,7 @@ function renderChart(data) {
     xAxis: { 
       scale: { 
         type: 'time', 
-        interval: { unit: 'year', multiplier: 5 } 
+        interval: { unit: 'year', multiplier: 6 } 
       } 
     }, 
     series: series, 
