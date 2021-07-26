@@ -16,7 +16,7 @@ var images = {
         Mag_8_9p5_vs_time:
         "/project-2/tinahtmlpushto/static/img/8-9.5_vs_time.png",
     default:
-        "https://wanna-joke.com/wp-content/uploads/2014/10/funny-Arnold-Schwarzenegger-protein.jpg"
+        "https://www.extremetech.com/wp-content/uploads/2020/11/AI-artificial-intelligence-2.jpg"
 };
 var changeImg = function() {
     const value = this.options[this.selectedIndex].value;
